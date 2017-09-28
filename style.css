@@ -83,3 +83,13 @@ h2 {
 #gh-link img:hover {
   filter:opacity(.5);
 }
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  button {
+    font-size: 15px;
+  }
+}
