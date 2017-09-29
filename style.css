@@ -36,7 +36,7 @@ body {
   filter:opacity(.5)drop-shadow(0 1px 1px rgba(0, 0, 0, 0.1));
 }
 
-button {
+#markethero-submit-form-button{
   padding: 20px;
   background: rgba(251, 248, 248, 0.7);
   border: 0;
@@ -47,11 +47,11 @@ button {
   transition: ease-in-out .3s;
 }
 
-button:hover {
+#markethero-submit-form-button:hover {
   background: rgba(251, 248, 248, 1);
 }
 
-button:active {
+#markethero-submit-form-button:active {
   position: relative;
   top: 1px;
   background: rgba(251, 248, 248, .6);
@@ -89,7 +89,7 @@ h2 {
     font-size: 1.5rem;
   }
 
-  button {
+  #markethero-submit-form-button {
     font-size: 15px;
   }
 }
